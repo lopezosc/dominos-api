@@ -17,7 +17,7 @@
     "microservices",
     "moleculer"
   ],
-  "author": "",
+  "author": "Oscar Lopez",
   "devDependencies": {
     "eslint": "^7.7.0",
     "jest": "^26.4.2",
@@ -25,9 +25,14 @@
     "moleculer-repl": "^0.6.4"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "jest-html-reporter": "^3.3.0",
+    "moleculer": "^0.14.10",
     "moleculer-web": "^0.9.0",
     "nats": "^1.4.12",
-    "moleculer": "^0.14.10"
+    "pg": "^8.4.1",
+    "sequelize": "^6.3.5",
+    "sequelize-pg-utilities": "^2.0.0"
   },
   "engines": {
     "node": ">= 10.x.x"
