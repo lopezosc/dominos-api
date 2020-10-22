@@ -38,7 +38,15 @@ module.exports = {
 				return "Hello Moleculer";
 			}
 		},
-
+		goodbye:{
+			rest:{
+				method:"GET",
+				path:"/goodbye"
+			},
+			async handler(){
+				return "good bye buddy!";
+			}
+		},
 		/**
 		 * Welcome, a username
 		 *
