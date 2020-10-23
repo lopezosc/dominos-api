@@ -1,0 +1,23 @@
+{
+	"development": {
+		"username": "atc_dev",
+		"password": "atc_dev",
+		"host": "localhost",
+		"database": "dominos",
+		"dialect": "postgres"
+	},
+	"test": {
+		"username": "atc_dev",
+		"password": "atc_dev",
+		"host": "localhost",
+		"database": "dominos_test",
+		"dialect": "postgres"
+	},
+	"production": {
+		"username": "atc_dev",
+		"password": "atc_dev",
+		"host": "localhost",
+		"database": "dominos_production",
+		"dialect": "postgres"
+	}
+}
